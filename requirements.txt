@@ -1,0 +1,8 @@
+# Runtime dependencies imported by the existing simulator and plotting scripts.
+# PyTorch and torchvision must be installed as a compatible pair.
+# For CUDA or ROCm, select the matching wheels at https://pytorch.org/get-started/locally/.
+numpy
+scipy
+torch
+torchvision
+matplotlib

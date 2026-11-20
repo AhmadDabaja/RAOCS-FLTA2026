@@ -1,0 +1,37 @@
+datasets/
+data/
+*.tar.gz
+*.pt
+*.pth
+*.ckpt
+
+# Results and generated outputs
+results/
+*/results/
+**/results*/
+plots*/
+**/plots*/
+
+# Python cache
+__pycache__/
+*/__pycache__/
+**/__pycache__/
+
+# PyCharm
+.idea/
+
+# Local Python environments, tooling, and temporary files
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.py[cod]
+*.log
+.DS_Store
+
+# Machine-specific SLURM submission scripts (kept locally, not published)
+*.sh
